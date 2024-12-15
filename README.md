@@ -11,7 +11,7 @@ Jest ono w ciągłym rozwoju oraz będą dodawane tutaj kolejne wiadomości/nota
 
 Po sklonowaniu projektu nalezy wejść do projektu w Terminalu i aby na waszym komputerze projekt działał odpowiednio nalezy przed uruchomieniem wpisać komendę:
 ```npm install```
-a następnie wystarczy uruchomić projekt za pomocą 
+a następnie wystarczy uruchomić projekt za pomocą
 ```npm start```
 
 ## Tworzenie nowego projektu
@@ -22,11 +22,11 @@ z czego musimy pamiętać o tym, ze nazwa projektu musi być zapisana z małych 
 
 ## Problemy z nowymi projektami (15.12.2024)
 
-Jezeli przy tworzeniu nowego projektu Reacta wystepuje problem (brak waznych pakietów), to w nowym projekcie musicie edytować plik **package.json** i zmienić wersję dla **react** oraz **react-dom** na **"^18.0.0"**, usunąć plik **package-lock.json** oraz folder **node_modules** oraz zainstalować jeszcze **web-vitals** (*npm install web-vitals --save-dev*).
+Jezeli przy tworzeniu nowego projektu Reacta wystepuje problem (brak waznych pakietów), to w nowym projekcie musicie edytować plik **package.json** i zmienić wersję dla **react** oraz **react-dom** na **"^18.0.0"**, usunąć plik **package-lock.json** oraz folder **node_modules** i zainstalować jeszcze **web-vitals** (*npm install web-vitals --save-dev*) no i na sam koniec zainstalować resztę pakietów za pomocą ```npm install```
 
 ## Najwazniejsze
 
-Głównie kod piszecie w katalogu **/src**, a plik podstawowy waszego kodu nazywa się **App.js**. Nie ruszamy pliku **index** jezeli nie wymagają. Jezeli natomiast chcemy wrzucić jakieś obrazy czy inne statyczne pliki typu ikony, plik .txt to wrzucamy do folderu **public**. Co do Bootstrapa, to jedynie co wystarczy zrobić to zainstalować go za pomocą komendy: 
+Głównie kod piszecie w katalogu **/src**, a plik podstawowy waszego kodu nazywa się **App.js**. Nie ruszamy pliku **index** jezeli nie wymagają. Jezeli natomiast chcemy wrzucić jakieś obrazy czy inne statyczne pliki typu ikony, plik .txt to wrzucamy do folderu **public**. Co do Bootstrapa, to jedynie co wystarczy zrobić to zainstalować go za pomocą komendy:
 ```npm install bootstrap```
 i następnie zaimportować pliki Bootstrapa z katalogu **bootstrap/dist/css/bootstrap.css** oraz **bootstrap/dist/js/bootstrap.bundle.js**. Mozna to zrobić w pliku **App.js** lub **index.js**, co sprawi ze bedzie dzialalo to w kazdym pliku.
 
